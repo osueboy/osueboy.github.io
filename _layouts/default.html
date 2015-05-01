@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ngMain">
 
   {% include head.html %}
 
-  <body>
+  <body ng-controller="layoutController">
 
     {% include header.html %}
 
@@ -12,9 +12,7 @@
         {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
-
   </body>
 
 </html>
